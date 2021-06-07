@@ -1,0 +1,46 @@
+.main-header {
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+    font-family: sans-serif;
+  }
+  
+  #headerGrad {
+    background-color: blue; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, lightblue, blue);
+  
+  }
+
+  #search-input {
+    margin: 10px;
+    width: 250px;
+  }
+
+  #searchCity {
+    width: 250px;
+    margin: 10px;
+  }
+
+  hr {
+    width: 250px; 
+    border: 1px solid #00446a; 
+    border-radius: 5px;
+    text-align:  left;
+  }
+
+  
+  main {
+    display: flex;
+  }
+
+  aside {
+    flex: 30%;
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+  
+  section {
+    flex: 70%;
+    background-color: #fff;
+    padding: 20px;
+  }
