@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
         integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="Style.css" />
-    <title>Weather </title>
+
+    <title>Weather Dashboard</title>
 </head>
 
 <body>
@@ -24,15 +25,39 @@
                 <div><input id="search-input" type="text" placeholder="Enter a city">
                 </div>
                 <button class="btn btn-primary" id="searchCity">Search</button>
-                <hr style="width: 250px; border: 2px solid #00446a;  border-radius: 5px;" align="left"/>
-            </form>            
+                <hr style="width: 250px; border: 2px solid #00446a;  border-radius: 5px;" align="left" />
+            </form>
         </aside>
-      
-      <section>
-        <h2>This is the body.</h2>
-      
-      </section>    
+
+        <section id="conditions">
+            <h1 id="cityAndDate"></h1>
+            <p id="temp"></p>
+            <p id="wind"></p>
+            <p id="humid"></p>
+            <p id="uvindx"></p>
+        </section>
     </main>
+    <main>
+        <aside>
+
+        </aside>
+        <section id="fiveDay">
+            <h1>5-Day Forecast</h1>
+            <section id="d1" class="card">
+            </section>
+            <section id="d2" class="card">
+            </section>
+            <section id="d3" class="card">
+            </section>
+            <section id="d4" class="card">
+            </section> 
+            <section id="d5" class="card">
+            </section> 
+        </section>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+    <script src="./Script.js"></script>
 </body>
 
 </html>

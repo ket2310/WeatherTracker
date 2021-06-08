@@ -39,8 +39,45 @@
     flex-wrap: wrap;
   }
   
-  section {
+  #conditions {
     flex: 70%;
     background-color: #fff;
+    border: black;
+    border-style: solid;
     padding: 20px;
+  }
+
+  #cityAndDate {
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+
+  #fiveDay {
+    display: inline;
+    flex: 70%;
+  }
+
+  #d1 {
+    background-color: navy;
+    color: white;
+  }
+
+  #d2 {
+    background-color: navy;
+    color: white;
+  }
+
+  #d3 {
+    background-color: navy;
+    color: white;
+  }
+
+  #d4 {
+    background-color: navy;
+    color: white;
+  }
+
+  #d5 {
+    background-color: navy;
+    color: white;
   }
