@@ -1,83 +1,83 @@
 .main-header {
-    text-align: center;
-    background: #13293d;
-    color: #fff;
-    font-family: sans-serif;
-  }
-  
-  #headerGrad {
-    background-color: blue; /* For browsers that do not support gradients */
-    background-image: linear-gradient(to right, lightblue, blue);
-  
-  }
+  text-align: center;
+  background: #13293d;
+  color: #fff;
+  font-family: sans-serif;
+}
 
-  #search-input {
-    margin: 10px;
-    width: 250px;
-  }
+#headerGrad {
+  background-color: blue; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, lightblue, blue);
 
-  #searchCity {
-    width: 250px;
-    margin: 10px;
-  }
+}
 
-  hr {
-    width: 250px; 
-    border: 1px solid #00446a; 
-    border-radius: 5px;
-    text-align:  left;
-  }
+#search-input {
+  margin: 10px;
+  width: 250px;
+}
 
-  
-  main {
-    display: flex;
-  }
+#searchCity {
+  width: 250px;
+  margin: 10px;
+}
 
-  aside {
-    flex: 30%;
-    padding: 20px;
-    flex-wrap: wrap;
-  }
-  
-  #conditions {
-    flex: 70%;
-    background-color: #fff;
-    border: black;
-    border-style: solid;
-    padding: 20px;
-  }
+hr {
+  width: 250px; 
+  border: 1px solid #00446a; 
+  border-radius: 5px;
+  text-align:  left;
+}
 
-  #cityAndDate {
-    font-family: sans-serif;
-    font-weight: bold;
-  }
 
-  #fiveDay {
-    display: inline;
-    flex: 70%;
-  }
+main {
+  display: flex;
+}
 
-  #d1 {
-    background-color: navy;
-    color: white;
-  }
+aside {
+  flex: 30%;
+  padding: 20px;
+  flex-wrap: wrap;
+}
 
-  #d2 {
-    background-color: navy;
-    color: white;
-  }
+#conditions {
+  flex: 70%;
+  background-color: #fff;
+  border: black;
+  border-style: solid;
+  padding: 20px;
+}
 
-  #d3 {
-    background-color: navy;
-    color: white;
-  }
+#cityAndDate {
+  font-family: sans-serif;
+  font-weight: bold;
+}
 
-  #d4 {
-    background-color: navy;
-    color: white;
-  }
+#fiveDay {
+  display: inline;
+  flex: 70%;
+}
 
-  #d5 {
-    background-color: navy;
-    color: white;
-  }
+#d1 {
+  background-color: navy;
+  color: white;
+}
+
+#d2 {
+  background-color: navy;
+  color: white;
+}
+
+#d3 {
+  background-color: navy;
+  color: white;
+}
+
+#d4 {
+  background-color: navy;
+  color: white;
+}
+
+#d5 {
+  background-color: navy;
+  color: white;
+}
